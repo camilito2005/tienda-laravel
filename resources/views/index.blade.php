@@ -12,7 +12,7 @@
             <hr class="my-4">
             <p>Explora las funcionalidades o comienza iniciando sesión.</p>
             <div class="d-flex justify-content-center gap-3">
-                <a href="" class="btn btn-custom btn-lg">Iniciar Sesión</a>
+                <a href="{{route('Usuario.login_html')}}" class="btn btn-custom btn-lg">Iniciar Sesión</a>
                 <a href="#" class="btn btn-outline-primary btn-lg">Más Información</a>
             </div>
         </div>
