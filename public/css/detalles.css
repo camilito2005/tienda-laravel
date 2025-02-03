@@ -1,0 +1,60 @@
+
+.agotado {
+    color: red;
+    font-weight: bold;
+}
+.product-details {
+    margin: 45px auto;
+    max-width: 10000px;
+}
+.details-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.details-image {
+    flex: 1;
+    max-width: 40%;
+}
+.details-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.details-info {
+    flex: 2;
+}
+.details-info h4 {
+    margin-bottom: 20px;
+}
+.details-info p {
+    margin: 10px 0;
+}
+.quantity-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.quantity-input input {
+    max-width: 80px;
+}
+.btn-back {
+    margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+    .details-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .details-image, .details-info {
+        max-width: 100%;
+        flex: none;
+    }
+    .details-info {
+        text-align: center;
+    }
+    .quantity-input {
+        flex-direction: column;
+    }
+}

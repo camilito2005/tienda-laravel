@@ -1,0 +1,21 @@
+.container {
+    max-width: 900px;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: center;
+}
